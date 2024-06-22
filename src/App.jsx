@@ -1,7 +1,9 @@
 import About from "./About";
-import "./App.css";
 import Banner from "./Banner";
+import Contact from "./Contact";
 import Navbar from "./Navbar";
+import Projects from "./Projects";
+import Services from "./Services";
 import Timeline from "./Timeline";
 
 function App() {
@@ -11,6 +13,9 @@ function App() {
       <Banner></Banner>
       <About></About>
       <Timeline></Timeline>
+      <Projects></Projects>
+      <Services></Services>
+      <Contact></Contact>
     </div>
   );
 }
